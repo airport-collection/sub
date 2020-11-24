@@ -13,42 +13,42 @@ dns:
     nameserver: [1.2.4.8, 223.5.5.5]
     fallback: ['tls://1.0.0.1:853', 'tls://dns.google:853']
 proxies:
-    - { name: '日本 01 东京 XZ -SS', type: ss, server: xzlt.gnzz.xyz, port: 22880, cipher: chacha20-ietf-poly1305, password: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, udp: true }
-    - { name: '日本 02 XZ -SS', type: ss, server: xznat.gnzz.xyz, port: 18890, cipher: chacha20-ietf-poly1305, password: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, udp: true }
-    - { name: '日本 03 XZ -SS', type: ss, server: xznat.gnzz.xyz, port: 28803, cipher: chacha20-ietf-poly1305, password: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, udp: true }
-    - { name: '美国 01 洛杉矶 HZ -SS', type: ss, server: hzdx1.gnzz.xyz, port: 39229, cipher: chacha20-ietf-poly1305, password: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, udp: true }
-    - { name: '美国 02 洛杉矶 HZ -SS', type: ss, server: hzdx2.gnzz.xyz, port: 39228, cipher: chacha20-ietf-poly1305, password: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, udp: true }
-    - { name: '美国 03 圣何赛 WZ -SS', type: ss, server: sx3.gnzz.xyz, port: 36503, cipher: chacha20-ietf-poly1305, password: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, udp: true }
-    - { name: '美国 04 洛杉矶 WZ -SS', type: ss, server: sx4.gnzz.xyz, port: 36504, cipher: chacha20-ietf-poly1305, password: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, udp: true }
-    - { name: '美国 05 洛杉矶 ZJ -SS', type: ss, server: sx5.gnzz.xyz, port: 36505, cipher: chacha20-ietf-poly1305, password: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, udp: true }
-    - { name: '美国 06 洛杉矶 ZJ -SS', type: ss, server: sx6.gnzz.xyz, port: 36506, cipher: chacha20-ietf-poly1305, password: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, udp: true }
-    - { name: '美国 07 圣何塞 ZJ -SS', type: ss, server: sx7.gnzz.xyz, port: 36507, cipher: chacha20-ietf-poly1305, password: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, udp: true }
-    - { name: '香港 05 SH -SS', type: ss, server: shcn2.gnzz.xyz, port: 39230, cipher: chacha20-ietf-poly1305, password: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, udp: true }
-    - { name: '台湾 01 CDN 台湾流媒体', type: vmess, server: sntw.llsmall.com, port: 80, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws, ws-path: / }
-    - { name: '新加坡 01  GZ -V2', type: vmess, server: gzdf1.gnzz.xyz, port: 12008, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '美国 10 洛杉矶  HN -V2', type: vmess, server: hnyd.gnzz.xyz, port: 22006, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '美国 08 拉斯维加斯 XZ -V2', type: vmess, server: xzlt.gnzz.xyz, port: 18899, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '日本 01  东京  HN -V2', type: vmess, server: necovm.gnzz.xyz, port: 18821, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '日本 02 东京  AH -V2', type: vmess, server: ahnat.gnzz.xyz, port: 12091, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '日本 03 东京  XZ -V2', type: vmess, server: xzlt.gnzz.xyz, port: 10860, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '日本 04 东京  XZ -V2', type: vmess, server: xzlt.gnzz.xyz, port: 10861, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '日本 05 东京  HN -V2', type: vmess, server: necovm.gnzz.xyz, port: 18820, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '日本 06 东京  GZ -V2', type: vmess, server: zyfw.gnzz.xyz, port: 12703, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '日本 07 东京  XZ -V2', type: vmess, server: xzlt.gnzz.xyz, port: 10862, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '美国 09 拉斯维加斯 XZ -V2', type: vmess, server: xzlt.gnzz.xyz, port: 18898, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '美国 01 洛杉矶 V2', type: vmess, server: a.usav2.xyz, port: 10960, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '美国 02 洛杉矶 V2', type: vmess, server: e.usav2.xyz, port: 10960, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '美国 03 圣何塞 V2', type: vmess, server: b.usav2.xyz, port: 10960, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '美国 04 洛杉矶 V2', type: vmess, server: j.usav2.xyz, port: 10960, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '美国 05 洛杉矶 V2', type: vmess, server: i.usav2.xyz, port: 10960, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '美国 06 洛杉矶 V2', type: vmess, server: g.usav2.xyz, port: 10960, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '美国 07 圣何塞 V2', type: vmess, server: k.usav2.xyz, port: 10960, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '香港 01 - GZ  -V2', type: vmess, server: nfyd.gnzz.xyz, port: 17792, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws, ws-path: /game, ws-headers: { Host: hk01.ddnsfree.com } }
-    - { name: '香港 02 - GZ -V2', type: vmess, server: gzyd.gnzz.xyz, port: 35000, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws, ws-path: /game, ws-headers: { Host: hk2.ddnsfree.com } }
-    - { name: '香港 03 - GZ -V2', type: vmess, server: gzyd4.gnzz.xyz, port: 12008, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '香港 04 - GZ -V2', type: vmess, server: gzyd3.gnzz.xyz, port: 23003, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '香港 05 - GZ -V2', type: vmess, server: gzdf.gnzz.xyz, port: 12009, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws }
-    - { name: '香港 06 GZ -V2', type: vmess, server: gzyd6.gnzz.xyz, port: 12008, uuid: cc44bf9b-20c8-40c4-8dc6-3cf619fc7b8e, alterId: 2, cipher: auto, udp: true, network: ws, ws-path: /game, ws-headers: { Host: hk06.wwv2.xyz } }
+    - { name: '日本 01 东京 XZ -SS', type: ss, server: xzlt.gnzz.xyz, port: 22880, cipher: chacha20-ietf-poly1305, password: 71b25bf9-5fe8-406a-bb0c-abce1668e395, udp: true }
+    - { name: '日本 02 XZ -SS', type: ss, server: xznat.gnzz.xyz, port: 18890, cipher: chacha20-ietf-poly1305, password: 71b25bf9-5fe8-406a-bb0c-abce1668e395, udp: true }
+    - { name: '日本 03 XZ -SS', type: ss, server: xznat.gnzz.xyz, port: 28803, cipher: chacha20-ietf-poly1305, password: 71b25bf9-5fe8-406a-bb0c-abce1668e395, udp: true }
+    - { name: '美国 01 洛杉矶 HZ -SS', type: ss, server: hzdx1.gnzz.xyz, port: 39229, cipher: chacha20-ietf-poly1305, password: 71b25bf9-5fe8-406a-bb0c-abce1668e395, udp: true }
+    - { name: '美国 02 洛杉矶 HZ -SS', type: ss, server: hzdx2.gnzz.xyz, port: 39228, cipher: chacha20-ietf-poly1305, password: 71b25bf9-5fe8-406a-bb0c-abce1668e395, udp: true }
+    - { name: '美国 03 圣何赛 WZ -SS', type: ss, server: sx3.gnzz.xyz, port: 36503, cipher: chacha20-ietf-poly1305, password: 71b25bf9-5fe8-406a-bb0c-abce1668e395, udp: true }
+    - { name: '美国 04 洛杉矶 WZ -SS', type: ss, server: sx4.gnzz.xyz, port: 36504, cipher: chacha20-ietf-poly1305, password: 71b25bf9-5fe8-406a-bb0c-abce1668e395, udp: true }
+    - { name: '美国 05 洛杉矶 ZJ -SS', type: ss, server: sx5.gnzz.xyz, port: 36505, cipher: chacha20-ietf-poly1305, password: 71b25bf9-5fe8-406a-bb0c-abce1668e395, udp: true }
+    - { name: '美国 06 洛杉矶 ZJ -SS', type: ss, server: sx6.gnzz.xyz, port: 36506, cipher: chacha20-ietf-poly1305, password: 71b25bf9-5fe8-406a-bb0c-abce1668e395, udp: true }
+    - { name: '美国 07 圣何塞 ZJ -SS', type: ss, server: sx7.gnzz.xyz, port: 36507, cipher: chacha20-ietf-poly1305, password: 71b25bf9-5fe8-406a-bb0c-abce1668e395, udp: true }
+    - { name: '香港 05 SH -SS', type: ss, server: shcn2.gnzz.xyz, port: 39230, cipher: chacha20-ietf-poly1305, password: 71b25bf9-5fe8-406a-bb0c-abce1668e395, udp: true }
+    - { name: '台湾 01 CDN 台湾流媒体', type: vmess, server: sntw.llsmall.com, port: 80, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws, ws-path: / }
+    - { name: '新加坡 01  GZ -V2', type: vmess, server: gzdf1.gnzz.xyz, port: 12008, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '美国 10 洛杉矶  HN -V2', type: vmess, server: hnyd.gnzz.xyz, port: 22006, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '美国 08 拉斯维加斯 XZ -V2', type: vmess, server: xzlt.gnzz.xyz, port: 18899, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '日本 01  东京  HN -V2', type: vmess, server: necovm.gnzz.xyz, port: 18821, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '日本 02 东京  AH -V2', type: vmess, server: ahnat.gnzz.xyz, port: 12091, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '日本 03 东京  XZ -V2', type: vmess, server: xzlt.gnzz.xyz, port: 10860, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '日本 04 东京  XZ -V2', type: vmess, server: xzlt.gnzz.xyz, port: 10861, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '日本 05 东京  HN -V2', type: vmess, server: necovm.gnzz.xyz, port: 18820, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '日本 06 东京  GZ -V2', type: vmess, server: zyfw.gnzz.xyz, port: 12703, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '日本 07 东京  XZ -V2', type: vmess, server: xzlt.gnzz.xyz, port: 10862, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '美国 09 拉斯维加斯 XZ -V2', type: vmess, server: xzlt.gnzz.xyz, port: 18898, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '美国 01 洛杉矶 V2', type: vmess, server: a.usav2.xyz, port: 10960, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '美国 02 洛杉矶 V2', type: vmess, server: e.usav2.xyz, port: 10960, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '美国 03 圣何塞 V2', type: vmess, server: b.usav2.xyz, port: 10960, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '美国 04 洛杉矶 V2', type: vmess, server: j.usav2.xyz, port: 10960, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '美国 05 洛杉矶 V2', type: vmess, server: i.usav2.xyz, port: 10960, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '美国 06 洛杉矶 V2', type: vmess, server: g.usav2.xyz, port: 10960, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '美国 07 圣何塞 V2', type: vmess, server: k.usav2.xyz, port: 10960, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '香港 01 - GZ  -V2', type: vmess, server: nfyd.gnzz.xyz, port: 17792, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws, ws-path: /game, ws-headers: { Host: hk01.ddnsfree.com } }
+    - { name: '香港 02 - GZ -V2', type: vmess, server: gzyd.gnzz.xyz, port: 35000, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws, ws-path: /game, ws-headers: { Host: hk2.ddnsfree.com } }
+    - { name: '香港 03 - GZ -V2', type: vmess, server: gzyd4.gnzz.xyz, port: 12008, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '香港 04 - GZ -V2', type: vmess, server: gzyd3.gnzz.xyz, port: 23003, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '香港 05 - GZ -V2', type: vmess, server: gzdf.gnzz.xyz, port: 12009, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws }
+    - { name: '香港 06 GZ -V2', type: vmess, server: gzyd6.gnzz.xyz, port: 12008, uuid: 71b25bf9-5fe8-406a-bb0c-abce1668e395, alterId: 2, cipher: auto, udp: true, network: ws, ws-path: /game, ws-headers: { Host: hk06.wwv2.xyz } }
 proxy-groups:
     - { name: 贸通云, type: select, proxies: [自动选择, 故障转移, '日本 01 东京 XZ -SS', '日本 02 XZ -SS', '日本 03 XZ -SS', '美国 01 洛杉矶 HZ -SS', '美国 02 洛杉矶 HZ -SS', '美国 03 圣何赛 WZ -SS', '美国 04 洛杉矶 WZ -SS', '美国 05 洛杉矶 ZJ -SS', '美国 06 洛杉矶 ZJ -SS', '美国 07 圣何塞 ZJ -SS', '香港 05 SH -SS', '台湾 01 CDN 台湾流媒体', '新加坡 01  GZ -V2', '美国 10 洛杉矶  HN -V2', '美国 08 拉斯维加斯 XZ -V2', '日本 01  东京  HN -V2', '日本 02 东京  AH -V2', '日本 03 东京  XZ -V2', '日本 04 东京  XZ -V2', '日本 05 东京  HN -V2', '日本 06 东京  GZ -V2', '日本 07 东京  XZ -V2', '美国 09 拉斯维加斯 XZ -V2', '美国 01 洛杉矶 V2', '美国 02 洛杉矶 V2', '美国 03 圣何塞 V2', '美国 04 洛杉矶 V2', '美国 05 洛杉矶 V2', '美国 06 洛杉矶 V2', '美国 07 圣何塞 V2', '香港 01 - GZ  -V2', '香港 02 - GZ -V2', '香港 03 - GZ -V2', '香港 04 - GZ -V2', '香港 05 - GZ -V2', '香港 06 GZ -V2'] }
     - { name: 自动选择, type: url-test, proxies: ['日本 01 东京 XZ -SS', '日本 02 XZ -SS', '日本 03 XZ -SS', '美国 01 洛杉矶 HZ -SS', '美国 02 洛杉矶 HZ -SS', '美国 03 圣何赛 WZ -SS', '美国 04 洛杉矶 WZ -SS', '美国 05 洛杉矶 ZJ -SS', '美国 06 洛杉矶 ZJ -SS', '美国 07 圣何塞 ZJ -SS', '香港 05 SH -SS', '台湾 01 CDN 台湾流媒体', '新加坡 01  GZ -V2', '美国 10 洛杉矶  HN -V2', '美国 08 拉斯维加斯 XZ -V2', '日本 01  东京  HN -V2', '日本 02 东京  AH -V2', '日本 03 东京  XZ -V2', '日本 04 东京  XZ -V2', '日本 05 东京  HN -V2', '日本 06 东京  GZ -V2', '日本 07 东京  XZ -V2', '美国 09 拉斯维加斯 XZ -V2', '美国 01 洛杉矶 V2', '美国 02 洛杉矶 V2', '美国 03 圣何塞 V2', '美国 04 洛杉矶 V2', '美国 05 洛杉矶 V2', '美国 06 洛杉矶 V2', '美国 07 圣何塞 V2', '香港 01 - GZ  -V2', '香港 02 - GZ -V2', '香港 03 - GZ -V2', '香港 04 - GZ -V2', '香港 05 - GZ -V2', '香港 06 GZ -V2'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
